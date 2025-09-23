@@ -87,7 +87,38 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="bin\Debug\DnsClient.dll" />
+    <None Include="bin\Debug\log4net.dll" />
+    <None Include="bin\Debug\Logs\Log.txt" />
+    <None Include="bin\Debug\MongoDB.Bson.dll" />
+    <None Include="bin\Debug\MongoDB.Bson.xml" />
+    <None Include="bin\Debug\MongoDB.Driver.Core.dll" />
+    <None Include="bin\Debug\MongoDB.Driver.Core.xml" />
+    <None Include="bin\Debug\MongoDB.Driver.dll" />
+    <None Include="bin\Debug\MongoDB.Driver.xml" />
+    <None Include="bin\Debug\mongodb.exe" />
+    <None Include="bin\Debug\mongodb.exe.config" />
+    <None Include="bin\Debug\MongoDB.Libmongocrypt.dll" />
+    <None Include="bin\Debug\mongodb.pdb" />
+    <None Include="bin\Debug\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll" />
+    <None Include="dll\DnsClient.dll" />
+    <None Include="dll\FluentData.dll" />
+    <None Include="dll\log4net.dll" />
+    <None Include="dll\MongoDB.Bson.dll" />
+    <None Include="dll\MongoDB.Driver.Core.dll" />
+    <None Include="dll\MongoDB.Driver.dll" />
+    <None Include="dll\MongoDB.Libmongocrypt.dll" />
+    <None Include="dll\Newtonsoft.Json.dll" />
+    <None Include="dll\System.Runtime.InteropServices.RuntimeInformation.dll" />
     <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin" />
+    <Folder Include="bin\Debug" />
+    <Folder Include="bin\Debug\Logs" />
+    <Folder Include="bin\Release" />
+    <Folder Include="dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
